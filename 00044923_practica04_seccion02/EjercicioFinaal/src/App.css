@@ -1,0 +1,70 @@
+body{
+  background-color: white;
+}
+
+.avatar {
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #333;
+}
+
+.cientifico-card {
+  display: flex;
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  background-color: white;
+}
+
+.avatar-container {
+  margin-right: 10px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.info-container {
+  flex: 1;
+}
+
+.info-container h2 {
+  color: #2c3e50;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+}
+
+.info-container p {
+  margin: 8px 0;
+  color: #555;
+}
+
+.premios-lista {
+  margin-top: 15px;
+}
+
+.premios-lista ul {
+  margin: 5px 0;
+  padding-left: 20px;
+}
+
+.premios-lista li {
+  margin: 3px 0;
+  color: #666;
+}
+
+.cientificos-container {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  padding: 20px;
+  background-color: #f8f9fa;
+  min-height: 100vh;
+}
+
+
+.app-header {
+  background-color: white;
+  color: black;
+}
